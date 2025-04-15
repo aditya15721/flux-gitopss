@@ -6,4 +6,4 @@ metadata:
 spec:
  type: rocket
  channel: "#fluxalert"
- address: http://172.20.10.5:3000/hooks/67fcfc578458cd411d8ef7be/SiWvnrW5WaCEXyuZtsM4esvBCq6wxCeT5BhZMkZxy3fbyAni
+ address: http://192.168.237.233:3000/hooks/67fcfc578458cd411d8ef7be/SiWvnrW5WaCEXyuZtsM4esvBCq6wxCeT5BhZMkZxy3fbyAni
