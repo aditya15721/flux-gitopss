@@ -5,11 +5,12 @@ metadata:
   namespace: flux-team-dev
 spec:
   interval: 1m
-  path: ./clusters/team-dev/apps
+  path: clusters/team-dev/flux-system/flux-team-dev/environment/prod
   prune: true
   sourceRef:
     kind: GitRepository
     name: team-dev-repo
+    namespace: flux-team-dev
   timeout: 2m
   retryInterval: 30s
   healthChecks:
