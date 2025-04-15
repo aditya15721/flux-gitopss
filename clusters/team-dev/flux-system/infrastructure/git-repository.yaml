@@ -8,9 +8,4 @@ spec:
   url: https://github.com/aditya15721/flux-gitopss.git
   ref:
     branch: main
-  # secretRef:
-  #   name: flux-team-dev-token
-  ignore: |
-    /*
-    !/clusters/team-dev/apps
 

@@ -11,10 +11,10 @@ spec:
     kind: GitRepository
     name: team-dev-repo
     namespace: flux-team-dev
-  timeout: 2m
-  retryInterval: 30s
-  healthChecks:
-    - apiVersion: apps/v1
-      kind: Deployment
-      name: app1
-      namespace: team-dev
+  # timeout: 2m
+  # retryInterval: 30s
+  # healthChecks:
+  #   - apiVersion: apps/v1
+  #     kind: Deployment
+  #     name: app1
+  #     namespace: team-dev
